@@ -38,7 +38,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         myAnnotationMarker.subtitle = "NSchool"
         myMapView.addAnnotation(myAnnotationMarker)
         
-        
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error.localizedDescription)
